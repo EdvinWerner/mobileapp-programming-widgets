@@ -30,6 +30,13 @@
             android:layout_weight="1"
             android:text="Button" />
 
+        <ToggleButton
+            android:id="@+id/toggleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ToggleButton" />
+
         <EditText
             android:id="@+id/editTextText"
             android:layout_width="wrap_content"
@@ -42,13 +49,6 @@
             android:ems="10"
             android:inputType="text"
             android:text="Name" />
-
-        <ToggleButton
-            android:id="@+id/toggleButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="ToggleButton" />
 
     </LinearLayout>
 
